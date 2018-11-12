@@ -15,4 +15,4 @@ client.on('message', message => {
 client.login(process.env.BOT_TOKEN);
 
 
-await client.change_status(game=discord.Game(name='Tit Smacker'))
+await client.change_status(game=discord.Game(name='Tit-Smacker'))
