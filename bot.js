@@ -15,3 +15,12 @@ client.on('message', message => {
 client.login(process.env.BOT_TOKEN);
 
 
+
+public class Help : ModuleBase<SocketCommandContext>
+{
+    [Command("test")]
+    public async Task TestAsync()
+    {
+        await Context.Client.SetGameAsync("Tit Smacker");
+
+        await Task.CompletedTask;
